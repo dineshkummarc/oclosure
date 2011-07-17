@@ -1,0 +1,11 @@
+\.cm[ioax]$
+\.cmxs$
+\.o$
+\.byte$
+^examples/test_.*\.js$
+~$
+^doc/*.html$
+^docdiv(/|$)
+^.svn(/|$)
+\.pyc$
+^Makefile.local$
