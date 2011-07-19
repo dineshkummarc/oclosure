@@ -1,0 +1,6 @@
+repo:http://ocsigen.org/darcs/oclosure
+thisrepo:/home/itz/oclosure
+cache:/home/itz/.darcs/cache
+repo:/tmp/oclosure
+thisrepo:/var/www/darcs/oclosure
+cache:/home/balat/.darcs/cache
