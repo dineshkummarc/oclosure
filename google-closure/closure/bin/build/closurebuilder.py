@@ -214,7 +214,7 @@ def main():
   if not input_namespaces:
     logging.error('No namespaces found. At least one namespace must be '
                   'specified with the --namespace or --input flags.')
-    sys.exit(2)
+    sys.exit(0)
 
   # The Closure Library base file must go first.
   base = _GetClosureBaseFile(sources)
