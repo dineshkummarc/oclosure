@@ -34,6 +34,10 @@ uninstall:
 	-[ ! -f ${BINDIR}/oclosure_req ] || rm -f ${BINDIR}/oclosure_req
 	-ocamlfind remove $(LIBRARY)
 
+test:
+	# a very simple test for now!
+	true
+
 reinstall: uninstall install
 
 doc:
